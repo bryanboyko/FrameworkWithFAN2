@@ -1,0 +1,11 @@
+framework module FrameworkWithFAN2 {
+  umbrella header "FrameworkWithFAN2.h"
+
+  export *
+  module * { export * }
+}
+
+module FrameworkWithFAN2.Swift {
+    header "FrameworkWithFAN2-Swift.h"
+    requires objc
+}
